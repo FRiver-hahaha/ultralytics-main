@@ -427,5 +427,5 @@ class YOLOE(Model):
         elif isinstance(self.predictor, yolo.yoloe.YOLOEVPDetectPredictor):
             self.predictor = None  # reset predictor if no visual prompts
         self.overrides["agnostic_nms"] = True  # use agnostic nms for YOLOE default
-
+        
         return super().predict(source, stream, **kwargs)
