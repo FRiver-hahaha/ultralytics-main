@@ -1,7 +1,7 @@
 path: ./datasets/ljp
 train: images/train
 val: images/val
-test: 
+test:
 
-names: 
+names:
   0: ljp
